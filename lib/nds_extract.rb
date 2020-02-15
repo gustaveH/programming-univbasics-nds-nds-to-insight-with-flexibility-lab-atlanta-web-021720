@@ -81,6 +81,8 @@ def gross_per_studio(collection)
     
     if !result[movie[:studio]]
     result[movie[:studio]] = movie[:worldwide_gross]
+  else 
+    
 
 
 
