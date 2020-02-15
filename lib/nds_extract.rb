@@ -101,7 +101,9 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-  index = 0
+  index =0 
+    a_o_a_movies_by_dir = []
+
 end
 
 # ----------------    End of Your Code Region --------------------
