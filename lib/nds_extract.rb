@@ -82,12 +82,11 @@ def gross_per_studio(collection)
     if !result[movie[:studio]]
     result[movie[:studio]] = movie[:worldwide_gross]
   else 
-    
-
-
-
-
-
+    result[movie[:studio]] += movie[:worldwide_gross]
+  end 
+  index +=1 
+end
+result
 
 end
 
@@ -102,6 +101,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
+  index = 0
 end
 
 # ----------------    End of Your Code Region --------------------
