@@ -106,6 +106,8 @@ def movies_with_directors_set(source)
     
     while index < source.length do
           dir_info_hash = source[index]
+          director_name = dir_info_hash[:name]
+
 
 
 
